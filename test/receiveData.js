@@ -1,7 +1,7 @@
 var Statics = require('../lib/statics');
 var receiveData = require('../lib/receiveData');
 var es = require('event-stream');
-var bufferEqual = require('buffer-equal');
+var bufferEqual = require('../lib/buffer_equal');
 
 describe('receiveData', function () {
   beforeEach(function () {

@@ -2,7 +2,7 @@ var sinon = require("sinon");
 var Statics = require('../lib/statics');
 var sendCommand = require('../lib/sendCommand');
 var es = require('event-stream');
-var bufferEqual = require('buffer-equal');
+var bufferEqual = require('../lib/buffer_equal');
 
 var EventEmitter = require('events').EventEmitter;
 
